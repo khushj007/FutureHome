@@ -8,10 +8,6 @@ import pathlib
 st.set_page_config(page_title="pridection")
 
 
-
-# with open('../modles/df.pkl','rb') as file:
-#     df = pickle.load(file)
-
 current_dir = pathlib.Path(__file__)
 home_dir = current_dir.parent.parent
 
@@ -19,9 +15,6 @@ print("value = ",home_dir)
 
 df  = joblib.load(home_dir / "df.pkl")
 pipeline  = joblib.load(home_dir / "models" / "model_rf_1.pkl")
-
-# with open('../models/model_rf_1.pkl','rb') as file:
-#     pipeline = pickle.load(file)
 
 
 st.header('Enter your inputs')
