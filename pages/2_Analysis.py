@@ -15,7 +15,7 @@ st.title('Analytics')
 current_dir = pathlib.Path(__file__)
 home_dir = current_dir.parent.parent
 
-feature = joblib.load(home_dir/"features.pkl")
+feature = joblib.load(home_dir/"projectData"/"features.pkl")
 
 new_df = pd.read_csv(home_dir / 'data/processed/viz_df.csv')
 new_df["longitude"]=new_df["longitude"].astype(np.float64)

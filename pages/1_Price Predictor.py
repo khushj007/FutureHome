@@ -13,7 +13,7 @@ home_dir = current_dir.parent.parent
 
 print("value = ",home_dir)
 
-df  = joblib.load(home_dir / "df.pkl")
+df  = joblib.load(home_dir / "projectData"/"df.pkl")
 pipeline  = joblib.load(home_dir / "models" / "model_rf_1.pkl")
 
 
