@@ -1,2 +1,8 @@
-numpy
 pandas
+streamlit
+numpy 
+scikit-learn
+wordcloud
+category_encoders
+plotly
+seaborn

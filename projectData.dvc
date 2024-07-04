@@ -1,0 +1,6 @@
+outs:
+- md5: 3f4d139ffbdc77c8651ea2073022152d.dir
+  size: 5057140
+  nfiles: 6
+  hash: md5
+  path: projectData
