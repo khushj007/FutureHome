@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Run unit tests
-        run: echo "Running unit test"
+        run: echo "Running unit tests"
 
   build-and-push-ecr-image:
     runs-on: ubuntu-latest
